@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <mata charset="utf-8">
-    <link rel="stylesheet" href="stylesheets/main.css"/>
-    <title>Edit</title>
-  </head>
-  <body>
     <h1>Edit</h1>
     <form method="post" acction="/memos/<%= @memo.id %>" >
       <input type= "hidden" name="_method" value="patch">
@@ -15,5 +7,3 @@
     </form>
     <a href="/memos/<%= @memo.id %>">Back to this memo </a>
     <a href="/">Back to all memos</a>  
-  </body>
-</html>
